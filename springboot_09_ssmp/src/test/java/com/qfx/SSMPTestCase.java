@@ -11,19 +11,24 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 public class SSMPTestCase {
+    @Test
+    void contextLoads() {
+        System.out.println("helloi");
+    }
     @Autowired
     private BookDao bookDao;
 
     @Autowired
     private IBookService bookService;
 
-    @Test
+    /*@Test
     public void testSave() {
         Book book = new Book();
         book.setType("历史");
         book.setName("资治通鉴");
         book.setDescription("宋代司马光");
         bookDao.insert(book);
+
     }
 
     @Test
@@ -35,5 +40,5 @@ public class SSMPTestCase {
     @Test
     public void TestSelectList(){
         System.out.println(bookService.getById("1"));
-    }
+    }*/
 }

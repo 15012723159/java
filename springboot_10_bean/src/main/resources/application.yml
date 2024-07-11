@@ -1,0 +1,6 @@
+servers:
+  port: 223
+  timeOut: -1
+  ipAddr: 127.0.0.1
+datasource:
+  driverClassName: com.mysql.jdbc.Driver123

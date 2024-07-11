@@ -1,0 +1,3 @@
+2024-07-11 17:35:06.964  INFO 38228 --- [http-nio-8080-exec-1] com.qfx.controller.BookController        : hello world
+2024-07-11 17:35:06.966  INFO 38228 --- [http-nio-8080-exec-1] com.qfx.controller.BookController        : 5555 world
+2024-07-11 17:35:06.966  INFO 38228 --- [http-nio-8080-exec-1] com.qfx.controller.BookController        : 555566666 world

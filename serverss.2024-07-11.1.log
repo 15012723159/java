@@ -1,0 +1,8 @@
+2024-07-11 17:34:21.381  INFO 38228 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-07-11 17:34:21.403  INFO 38228 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-11 17:34:21.412  INFO 38228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-11 17:34:21.467  INFO 38228 --- [restartedMain] com.qfx.Springboot09SsmpApplication      : Started Springboot09SsmpApplication in 1.031 seconds (JVM running for 4955.083)
+2024-07-11 17:34:21.468  INFO 38228 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-11 17:35:02.619  INFO 38228 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-07-11 17:35:02.720  INFO 38228 --- [Thread-55] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-07-11 17:35:02.726  INFO 38228 --- [Thread-55] com.alibaba.druid.pool.DruidDataSource   : {dataSource-12} closing ...

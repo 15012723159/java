@@ -1,0 +1,75 @@
+spring:
+  profiles:
+    active: dev
+---
+
+server:
+  port: 8080
+
+spring:
+  ##数据库连接信息
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/qfx?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: afe69b10a6af7c2b
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  config:
+    activate:
+      on-profile: pro
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix:
+      id-type: auto
+  configuration:
+     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+---
+server:
+  port: 8081
+
+spring:
+  ##数据库连接信息
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/qfx?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: afe69b10a6af7c2b
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  config:
+    activate:
+      on-profile: dev
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix:
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+---
+server:
+  port: 8082
+
+spring:
+  ##数据库连接信息
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/qfx?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: afe69b10a6af7c2b
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  config:
+    activate:
+      on-profile: test
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix:
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

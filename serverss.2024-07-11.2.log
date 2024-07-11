@@ -1,0 +1,42 @@
+2024-07-11 17:35:02.726  INFO 38228 --- [Thread-55] com.alibaba.druid.pool.DruidDataSource   : {dataSource-12} closed
+2024-07-11 17:35:02.867  INFO 38228 --- [restartedMain] com.qfx.Springboot09SsmpApplication      : Starting Springboot09SsmpApplication using Java 1.8.0_333 on SZZW-01-0496 with PID 38228 (D:\server\javastudy\java\springboot_09_ssmp\target\classes started by qinfuxing in D:\server\javastudy\java)
+2024-07-11 17:35:02.880  INFO 38228 --- [restartedMain] com.qfx.Springboot09SsmpApplication      : The following 1 profile is active: "dev"
+2024-07-11 17:35:03.051  INFO 38228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-07-11 17:35:03.052  INFO 38228 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-11 17:35:03.052  INFO 38228 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-11 17:35:03.065  INFO 38228 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-11 17:35:03.065  INFO 38228 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 184 ms
+2024-07-11 17:35:03.072  INFO 38228 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-07-11 17:35:03.090  INFO 38228 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-13} inited
+2024-07-11 17:35:03.416  INFO 38228 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-07-11 17:35:03.434  INFO 38228 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-11 17:35:03.443  INFO 38228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-11 17:35:03.446  INFO 38228 --- [restartedMain] com.qfx.Springboot09SsmpApplication      : Started Springboot09SsmpApplication in 0.647 seconds (JVM running for 4997.062)
+2024-07-11 17:35:03.446  INFO 38228 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-11 17:35:05.904  INFO 38228 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-07-11 17:35:06.007  INFO 38228 --- [Thread-59] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-07-11 17:35:06.015  INFO 38228 --- [Thread-59] com.alibaba.druid.pool.DruidDataSource   : {dataSource-13} closing ...
+2024-07-11 17:35:06.015  INFO 38228 --- [Thread-59] com.alibaba.druid.pool.DruidDataSource   : {dataSource-13} closed
+2024-07-11 17:35:06.100  INFO 38228 --- [restartedMain] com.qfx.Springboot09SsmpApplication      : Starting Springboot09SsmpApplication using Java 1.8.0_333 on SZZW-01-0496 with PID 38228 (D:\server\javastudy\java\springboot_09_ssmp\target\classes started by qinfuxing in D:\server\javastudy\java)
+2024-07-11 17:35:06.101  INFO 38228 --- [restartedMain] com.qfx.Springboot09SsmpApplication      : The following 1 profile is active: "dev"
+2024-07-11 17:35:06.342  INFO 38228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-07-11 17:35:06.343  INFO 38228 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-11 17:35:06.343  INFO 38228 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-11 17:35:06.359  INFO 38228 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-11 17:35:06.359  INFO 38228 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 257 ms
+2024-07-11 17:35:06.365  INFO 38228 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-07-11 17:35:06.381  INFO 38228 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-14} inited
+2024-07-11 17:35:06.652  INFO 38228 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-07-11 17:35:06.668  INFO 38228 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-11 17:35:06.677  INFO 38228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-11 17:35:06.680  INFO 38228 --- [restartedMain] com.qfx.Springboot09SsmpApplication      : Started Springboot09SsmpApplication in 0.613 seconds (JVM running for 5000.296)
+2024-07-11 17:35:06.680  INFO 38228 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-11 17:35:06.957  INFO 38228 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-11 17:35:06.960  INFO 38228 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-11 17:35:06.962  INFO 38228 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-11 17:35:06.964  INFO 38228 --- [http-nio-8080-exec-1] com.qfx.controller.BookController        : world
+2024-07-11 17:35:06.964  WARN 38228 --- [http-nio-8080-exec-1] com.qfx.controller.BookController        : i
+2024-07-11 17:35:06.964 ERROR 38228 --- [http-nio-8080-exec-1] com.qfx.controller.BookController        : error
+2024-07-11 17:35:06.964 ERROR 38228 --- [http-nio-8080-exec-1] com.qfx.controller.BookController        : error1111
+2024-07-11 17:35:06.964 ERROR 38228 --- [http-nio-8080-exec-1] com.qfx.controller.BookController        : error2222
+2024-07-11 17:35:06.964 ERROR 38228 --- [http-nio-8080-exec-1] com.qfx.controller.BookController        : error3333
