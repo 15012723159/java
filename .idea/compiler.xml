@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot_10_bean" />
+        <module name="springboot_11_test" />
         <module name="springboot_09_ssmp" />
       </profile>
     </annotationProcessing>

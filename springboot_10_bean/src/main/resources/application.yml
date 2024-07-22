@@ -1,6 +1,24 @@
+spring:
+  devtools:
+    restart:
+      enabled: true
+server:
+  port: 8080
 servers:
-  port: 223
+  port: 3306
   timeOut: -1
   ipAddr: 127.0.0.1
+  connectTimeOut: 10
+  dataSize: 2048
 datasource:
   driverClassName: com.mysql.jdbc.Driver123
+  password: 0127
+logging:
+  level:
+    root: info
+  file:
+    name: mylog.log
+  logback:
+    rollingpolicy:
+      max-file-size: 1KB
+      file-name-pattern: mylog.%d{yyyy-MM-dd}.%i.log

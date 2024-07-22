@@ -19,12 +19,12 @@ public class Springboot10BeanApplication {
         DruidDataSource druidDataSource = new DruidDataSource();
         return druidDataSource;
     }
-    public static void main(String[] args) {
-     ConfigurableApplicationContext ctx =  SpringApplication.run(Springboot10BeanApplication.class, args);
-      ServletConfig sevlet =   ctx.getBean(ServletConfig.class);
-      System.out.println(sevlet.toString());
 
-        DruidDataSource druidDataSource =  ctx.getBean(DruidDataSource.class);
+    public static void main(String[] args) {
+        ConfigurableApplicationContext ctx = SpringApplication.run(Springboot10BeanApplication.class, args);
+        ServletConfig sevlet = ctx.getBean(ServletConfig.class);
+        System.out.println(sevlet.toString());
+        DruidDataSource druidDataSource = ctx.getBean(DruidDataSource.class);
         System.out.println(druidDataSource.getDriverClassName());
     }
 
