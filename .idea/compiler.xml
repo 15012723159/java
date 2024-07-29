@@ -9,6 +9,7 @@
         <module name="springboot_10_bean" />
         <module name="springboot_11_test" />
         <module name="springboot_09_ssmp" />
+        <module name="springboot_12_mq" />
       </profile>
     </annotationProcessing>
   </component>

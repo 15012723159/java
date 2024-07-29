@@ -1,0 +1,40 @@
+spring:
+  devtools:
+    restart:
+      enabled: true
+  ##数据库连接信息
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/qfx?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: afe69b10a6af7c2b
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+  activemq:
+    broker-url: tcp://127.0.0.1:61616
+server:
+  port: 8080
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix:
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+logging:
+  level:
+    root: info
+  file:
+    name: mylog2.log
+  logback:
+    rollingpolicy:
+      max-file-size: 1KB
+      file-name-pattern: mylog2.%d{yyyy-MM-dd}.%i.log
+testcase:
+  book:
+    name: ${random.value}
+    description: qfx${random.value}
+    type: ${random.value}
