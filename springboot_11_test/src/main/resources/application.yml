@@ -36,3 +36,6 @@ testcase:
     name: ${random.value}
     description: qfx${random.value}
     type: ${random.value}
+memcache:
+  host: 127.0.0.1
+  port: 11211
