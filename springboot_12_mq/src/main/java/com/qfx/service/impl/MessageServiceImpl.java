@@ -9,16 +9,16 @@ import org.springframework.stereotype.Service;
 
 @Service
 @Slf4j
-public class MessageServiceImpl implements IMessageService {
+public class MessageServiceImpl{
     @Autowired
     private JmsMessagingTemplate jmsMessagingTemplate;
-    @Override
+   // @Override
     public void sendMessage(String id) {
         log.info("订单进入队列+ id = " + id);
-        jmsMessagingTemplate.convertAndSend("order.queue.id",id);
+        jmsMessagingTemplate.convertAndSend("order.queues.id",id);
     }
 
-    @Override
+   // @Override
     public String doMessage() {
        String id =  jmsMessagingTemplate.receiveAndConvert("order.queue.id",String.class);
        log.info("订单id= " + id +"处理结束");
