@@ -1,4 +1,8 @@
 spring:
+  kafka:
+    bootstrap-servers: 127.0.0.1:9092
+    consumer:
+      group-id: order_topic
   devtools:
     restart:
       enabled: true
@@ -46,6 +50,6 @@ testcase:
     description: qfx${random.value}
     type: ${random.value}
 rocketmq:
-  producer:
-    group: "group-producer"
   name-server: localhost:9876
+  producer:
+    group: "group-consume"
